@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+ <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FAQ</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0/css/materialize.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <div class="nav-wrapper blue">
+                <a href="#" class="brand-logo center">France Corp</a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                </ul>
+            </div>
+        </nav>
+    <div class="container">
+        <h3 class="center">Frequently Added</h3>
+        <ul class="collapsible">
+            <li>
+                <div class="collapsible=header">What is this website about?</div>
+                <div class="collapsible-body"><p>This website provides financial services, investment, advice, ect.</p></div>
+            </li>
+            <li>
+                <div class="collapsible-header">How can i contact support?</div>
+                <div class="collapsible-body"><p>You can contact support via email or cell phone.</p></div>
+            </li>
+        </ul>
+    </div>
+    <script scr="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            var elems = document.querySelectorAll('.collapsible');
+            M.Collapsible.init(elems);
+        });
+    </script>
+    </body>
+ </html>
